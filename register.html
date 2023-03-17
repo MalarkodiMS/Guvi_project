@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>register</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/login.css" type="text/css">
+
+</head>
+<body>
+
+<h2>Sign Up Form</h2>
+
+<form action="php/register.php" method="post" id="registrationForm">
+    <div class="container">
+    <label for="username"><b>Name</b></label>
+    <input type="text" placeholder="Enter username" name="username" id="username" required>
+
+    <label for="email"><b>Email</b></label>
+    <input type="email" placeholder="Enter Email" name="email" id="email" required>
+
+    <label for="dept"><b>Department Name</b></label>
+    <input type="text" placeholder="Enter Department" name="dept" id="dept" required>
+
+    <label for="college"><b>College Name</b></label>
+    <input type="text" placeholder="Enter College" name="college" id="college" required>
+
+    <label for="password"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="password" id="password" required>
+        
+    <button type="submit" id="signup-btn">Sign Up</button>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="./js/register.js">
+</script>
+</form>
+
+</body>
+
